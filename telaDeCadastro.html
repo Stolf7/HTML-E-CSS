@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="telaCadastroProdutoStyle.css">
+    <title>Documentação dos Produtos</title>
+</head>
+<body>
+    <header>
+
+        <h1>InventoryPlus</h1>
+    
+    </header>
+
+    <main>
+        
+            <form action="indexPhp.php" method="post">
+
+            <input type="text" name="fornecedor" required placeholder="Nome do fornecedor"><br><br>
+            
+            <input type="text" required placeholder="Nome do produto"><br><br>
+
+            <label for="dataFabricação">Data de Fabricação</label><br>
+            <input type="date" required><br><br>
+
+            <label for="dataVencimento">Data de vencimento</label><br>
+            <input type="date"><br><br>
+
+            <input type="number" required placeholder="Código do produto"><br>
+
+            <input class="enviar" type="submit" value="Cadastrar" id="popUpColor">
+
+        </form>
+
+    </main>
+
+    <nav>
+        <ul>
+            <li><a href="telaOpcoes.html">Início</a></li>
+            <li><a href="telaDeCadastro.html">Cadastrar Produto</a></li>
+            <li><a href="estoque.html">Estoque</a></li>
+            <li class="sair"><a href="index.html">Sair</a></li>
+          </ul>
+        </nav>
+
+</body>
+</html>

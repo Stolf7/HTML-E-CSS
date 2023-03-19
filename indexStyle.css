@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+*{
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 1.7em;
+    text-align: justify;
+    margin-left: 0.5em;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+body{
+    background-color: #A4A6A6;
+}
+header{
+    width: 30em;
+    height: 10em;    
+    margin-left: 10%;
+    margin-top: 1px;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-shadow: 3px 3px 8px #000;
+    color: white;
+}
+
+.c-loader {
+    animation: is-rotating 2s infinite;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 12px solid #e5e5e5;
+    border-top-color: #51d4db;
+    margin-top: 10em;
+    display: flex;
+    margin-left: 12em;
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+main{
+    margin-left: 60%;
+    height: 25em;
+    width: 30em;
+    border-radius: 12px;
+    background-color: #8C8C8C;
+    box-shadow: 1px 1px 6px 2px #404040;
+}
+
+button {
+    background-color: #3cadb3;
+    box-shadow: 1px 1px 10px 1px #51d4db;
+    border: none;
+    color: white;
+    padding: 22px 60px;
+    width: 90%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 0.8em;
+    margin-top: 2em;
+    font-size: 1em;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 18px 20px;
+    margin: 8px;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+    margin-left: 1em;
+}
+
+input[type=password] {
+    width: 90%;
+    padding: 18px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    margin-left: 1em;
+}
+
+
+
+
+
